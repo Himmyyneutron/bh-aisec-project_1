@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       - name: echo-server
-        image: docker.io/lmrs2/bh-aisec-project1-echo-server@sha256:ce2f543c322c5b77f31bf2715dc7b54bcf1497e32e0223be7901048940005dc6
+        image: docker.io/joelmorales402/bh-aisec-project_1-echo-server@sha256:eaaee89dd74f070bbae235680cc6ee0ce2f6475d947d4f138900620916e7dfe9
         ports:
         - containerPort: 8081
 ---
