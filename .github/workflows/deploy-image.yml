@@ -30,7 +30,7 @@ defaults:
 
 env:
   IMAGE_REGISTRY: docker.io
-  IMAGE_NAME: ${{ Himmyyneutron/bh-aisec-organization/.github/workflows/image-deployer.yml@main }}-echo-server
+  IMAGE_NAME: ${{ github.repository }}-echo-server
 
 jobs:
   deploy:
